@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Happy Birthday Melda Ekawati!</title>
@@ -10,7 +10,11 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="./cake.png" type="image/png" />
-
+    <script>
+      window.addEventListener("click", function () {
+        document.getElementById("hbd_song").play();
+      });
+    </script>
     <script src="js/jquery.js"></script>
     <script src="js/birthday.js"></script>
     <script src="js/hbd.js"></script>
@@ -93,18 +97,27 @@
 
           <span class="comments">// The last thing I wanna say</span><br />
 
-          System.out.println(<span class="string">"Happy Birthday!"</span
+          System.out.println(<span class="string"
+            >"Happy birthday, my love. I’m really grateful to have you in my
+            life. Being with you makes my days brighter and more meaningful.
+            Thank you for always being kind, supportive, and for bringing so
+            much happiness into my life. I hope this new year brings you
+            happiness, good health, and everything you’ve been wishing for. You
+            truly deserve all the beautiful things in life. I’m lucky to have
+            you. Happy birthday once again. "</span
           >);<br />
         </div>
 
         <div id="loveHeart">
           <canvas id="garden"></canvas>
+
+          <audio id="hbd_song" src="audio/song.mp3" loop></audio>
         </div>
       </div>
 
       <div id="copyright">
         <hr />
-        <p>Made with love ❤️</p>
+        <p>Made with love Arya</p>
       </div>
     </div>
 
